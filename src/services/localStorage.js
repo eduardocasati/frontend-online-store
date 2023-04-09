@@ -43,7 +43,7 @@ export const addProductToCart = (product) => {
   }
   // Se o produto não existe no localStorage, a função o adiciona
   product.quantity = 1;
-  saveShoppingCart([...products, product]);
+  saveShoppingCart([ ...products, product ]);
   saveShoppingCartSize();
 };
 

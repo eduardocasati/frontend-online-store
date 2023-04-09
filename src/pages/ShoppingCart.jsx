@@ -22,8 +22,9 @@ export default class ShoppingCart extends Component {
 
   componentDidMount() {
     const data = readShoppingCart();
+    const sortData = data.map((item) => (JSON.stringify(item))).sort();
     this.setState({
-      cartProducts: data,
+      cartProducts: sortData.map((item) => (JSON.parse(item))),
       shoppingCartSize: localStorage.getItem("shoppingCartSize"),
     });
   }
@@ -41,8 +42,9 @@ export default class ShoppingCart extends Component {
     }
     addProductToCart(product);
     const newData = readShoppingCart();
+    const sortData = newData.map((item) => (JSON.stringify(item))).sort();
     this.setState({
-      cartProducts: newData,
+      cartProducts: sortData.map((item) => (JSON.parse(item))),
       shoppingCartSize: localStorage.getItem("shoppingCartSize"),
     });
   };
@@ -54,8 +56,9 @@ export default class ShoppingCart extends Component {
     }
     removeProductFromCart(product);
     const newData = readShoppingCart();
+    const sortData = newData.map((item) => (JSON.stringify(item))).sort();
     this.setState({
-      cartProducts: newData,
+      cartProducts: sortData.map((item) => (JSON.parse(item))),
       shoppingCartSize: localStorage.getItem("shoppingCartSize"),
     });
   };
@@ -64,8 +67,9 @@ export default class ShoppingCart extends Component {
   removeItemFromCart = (product) => {
     deleteProductFromCart(product);
     const newData = readShoppingCart();
+    const sortData = newData.map((item) => (JSON.stringify(item))).sort();
     this.setState({
-      cartProducts: newData,
+      cartProducts: sortData.map((item) => (JSON.parse(item))),
       shoppingCartSize: localStorage.getItem("shoppingCartSize"),
     });
   };
