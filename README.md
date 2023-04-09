@@ -4,7 +4,7 @@
 
 > _Este projeto foi desenvolvido na **Seção 5 - Metodologias Ágeis** do **Módulo de Front-end** da Formação em Desenvolvimento Web pela [Trybe](https://www.betrybe.com/)._
 
-- URL do projeto: [https://trybetunes-ec.vercel.app/](https://trybetunes-ec.vercel.app/)
+- URL do projeto: [https://frontend-online-store-ec.vercel.app/](https://frontend-online-store-ec.vercel.app/)
 
 ---
 
