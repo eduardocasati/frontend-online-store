@@ -1,0 +1,22 @@
+.shopping-cart-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.shopping-cart-button__cart-icon {
+  color: var(--clr-gray-dark);
+}
+
+.shopping-cart-button__item-quantity {
+  position: absolute;
+  top: -38%;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--clr-blue);
+}

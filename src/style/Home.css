@@ -1,0 +1,131 @@
+.header {
+  height: 104px;
+  width: 100%;
+  padding: 0 50px;
+  background-color: #fff;
+}
+
+.header__container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  height: 100%;
+  max-width: 1500px;
+}
+
+.header__logo {
+  width: 200px;
+}
+
+.header__container img {
+  width: 200px;
+}
+
+.hero {
+  width: 100%;
+  height: calc(100dvh - 104px);
+  background: rgb(18,172,226);
+  background: linear-gradient(160deg, rgba(18,172,226,1) 55%, rgba(18,164,216,1) 45%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.hero__fos {
+  width: fit-content;
+  margin-left: 80px;
+}
+
+.hero__vector {
+  width: 520px;
+}
+
+.main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1500px;
+  padding: 8px 50px 100px;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-top: 16px;
+}
+
+.scroll-up-button {
+  color: var(--clr-gray-dark);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 16px 16px 0;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.scroll-up-button:hover {
+  transform: scale(1.2);
+  color: var(--clr-blue);
+}
+
+.searching-loading, .not-found {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.not-found {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+@media only screen and (max-width: 1010px) {
+
+  .header {
+    padding: 0 12px;
+  }
+
+  .header__container {
+    gap: 12px;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__container img {
+    width: 140px;
+    margin-left: 16px;
+  }
+
+  .hero {
+    background: linear-gradient(160deg, rgba(18,172,226,1) 50%, rgba(18,164,216,1) 50%);
+    padding: 0;
+    flex-direction: column;
+  }
+  
+  .hero__fos {
+    width: 260px;
+    margin-left: 0;
+    transform: translateY(-40px);
+  }
+  
+  .hero__vector {
+    width: 260px;
+  }
+
+  .not-found {
+    font-size: 1.6rem;
+    padding: 0 24px;
+  }
+
+}
