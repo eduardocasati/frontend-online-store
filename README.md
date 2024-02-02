@@ -1,27 +1,36 @@
 # 🛍️ Front-end Online Store
 
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+![React Badge](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=000)
 
-> _Este projeto foi desenvolvido na **Seção 5 - Metodologias Ágeis** do **Módulo de Front-end** da Formação em Desenvolvimento Web pela [Trybe](https://www.betrybe.com/)._
+> _Este projeto foi desenvolvido como parte da **[Formação em Desenvolvimento Web](https://www.betrybe.com/formacao-desenvolvimento-web)** pela **[Trybe](https://www.betrybe.com/)**, no **Módulo: Front-end**, **Seção 5 - Metodologias Ágeis**_
 
-- URL do projeto: [https://frontend-online-store-ec.vercel.app/](https://frontend-online-store-ec.vercel.app/)
+> Live demo do projeto: [https://frontend-online-store-ec.vercel.app/](https://frontend-online-store-ec.vercel.app/)
+
+#### Autor: **Eduardo Casati**
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardocasati/)
 
 ---
 
+## O que foi Desenvolvido
+
+O projeto consiste em uma versão simplificada de uma loja online, sem persistência no banco de dados.
+
+**Funcionalidades:**
+
+- Buscar produtos por termos e categorias a partir da API do Mercado Livre;
+- Interagir com os produtos buscados de modo a adicioná-los e removê-los de um carrinho de compras em diferentes quantidades;
+- Visualizar detalhes e avaliações prévias de um produto, bem como criar novas avaliações;
+- Simular a finalização da compra dos itens selecionados.
+
 ## O que foi avaliado
 
-Este projeto foi desenvolvido para o estudo e a avaliação dos seguintes conhecimentos:
+Este projeto teve como objetivo consolidar e avaliar conhecimentos dos seguintes tópicos:
 
 - Metodologias ágeis (Kanban)
 - Ciclos de vida de componentes React;
 - Uso de Rotas Dinâmicas do React Router;
 - Manipulação do Estado de componentes React;
 - Renderização condicional;
-- Requisição e consumo de dados vindos de uma API ([Mercado Livre](https://developers.mercadolivre.com.br/pt_br/api-docs-pt-br));
+- Requisição e consumo de dados de uma API ([Mercado Livre](https://developers.mercadolivre.com.br/pt_br/api-docs-pt-br));
 - Utilização do Local Storage.
-
-## Autor
-
-**Eduardo Casati**
-
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/eduardo-casati/)
